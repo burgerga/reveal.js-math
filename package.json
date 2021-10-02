@@ -1,0 +1,29 @@
+{
+  "name": "reveal.js-math",
+  "version": "1.0.0",
+  "description": "Math plugins (MathJax/KaTeX) for reveal.js.",
+  "main": "dist/math.umd.js",
+  "module": "dist/math.esm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burgerga/reveal.js-math.git"
+  },
+  "keywords": [
+    "reveal",
+    "math"
+  ],
+  "author": "Gerhard Burger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/burgerga/reveal.js-math/issues"
+  },
+  "homepage": "https://github.com/burgerga/reveal.js-math#readme",
+  "devDependencies": {
+    "rollup": "^2.58.0"
+  },
+  "dependencies": {}
+}
