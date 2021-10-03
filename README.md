@@ -39,7 +39,7 @@ where `<Variant>` is one of `MathJax2`, `MathJax3`, `KaTeX`.
 
 You can configure math by providing a reveal.js initialization object for your variant. These object have different names to allow easy switching between variants
 
-**MathJax2**
+### MathJax2
 
 Adjust options through the `mathjax2` configuration object. Below is how the plugin is configured by default. 
 If you don't intend to change these values you do not need to include the `mathjax2` config option at all.
@@ -63,7 +63,7 @@ Note that the latest MathJax 2 is loaded from a remote server. To use a fixed ve
 If you want to use MathJax offline you'll need to download a copy of the library (e.g. with npm) and adjust `mathjax` accordingly.
 
 
-**MathJax3**
+### MathJax3
 
 Adjust options through the `mathjax3` configuration object. Below is how the plugin is configured by default.
 If you don't intend to change these values you do not need to include the `mathjax3` config option at all.
@@ -87,7 +87,7 @@ Note that the latest MathJax 2 is loaded from a remote server. To use a fixed ve
 
 If you want to use MathJax offline you'll need to download a copy of the library (e.g. with npm) and adjust `mathjax` accordingly.
 
-**KaTeX**
+### KaTeX
 
 Adjust options through the `katex` configuration object. Below is how the plugin is configured by default.
 If you don't intend to change these values you do not need to include the `katex` config option at all.
