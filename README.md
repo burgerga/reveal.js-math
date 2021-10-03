@@ -26,7 +26,7 @@ or if you're using ES modules:
 
 ```javascript
 <script type="module">
-  import RevealMath from "./node_modules/reveal.js-math/dist/bundle.esm.js"
+  import RevealMath from "./node_modules/reveal.js-math/dist/math.esm.js"
   Reveal.initialize({
     plugins: [ RevealMath.<Variant> ]
   });
