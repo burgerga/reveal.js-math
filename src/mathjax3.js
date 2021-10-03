@@ -59,7 +59,7 @@ export const MathJax3 = () => {
             options.options = {...options.options, ...defaultOptions.options}
             options.startup = {...defaultOptions.startup, ...revealOptions.startup}
 
-            let url = options.mathjax || 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js';
+            let url = options.mathjax || 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
             options.mathjax = null;
 
             window.MathJax = options;

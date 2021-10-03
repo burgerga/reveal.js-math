@@ -15,7 +15,7 @@
 		let deck;
 
 		let defaultOptions = {
-			version: '0.13.18',
+			version: 'latest',
 			delimiters: [
 				{left: '$', right: '$', display: false},
 				{left: '$$', right: '$$', display: true},
@@ -151,7 +151,7 @@
 				let revealOptions = deck.getConfig().mathjax2 || {};
 
 				let options = { ...defaultOptions, ...revealOptions };
-				let mathjax = options.mathjax || 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js';
+				let mathjax = options.mathjax || 'https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js';
 				let config = options.config || 'TeX-AMS_HTML-full';
 				let url = mathjax + '?config=' + config;
 
@@ -243,7 +243,7 @@
 	            options.options = {...options.options, ...defaultOptions.options};
 	            options.startup = {...defaultOptions.startup, ...revealOptions.startup};
 
-	            let url = options.mathjax || 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js';
+	            let url = options.mathjax || 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
 	            options.mathjax = null;
 
 	            window.MathJax = options;

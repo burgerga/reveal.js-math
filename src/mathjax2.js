@@ -57,7 +57,7 @@ export const MathJax2 = () => {
 			let revealOptions = deck.getConfig().mathjax2 || {};
 
 			let options = { ...defaultOptions, ...revealOptions };
-			let mathjax = options.mathjax || 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js';
+			let mathjax = options.mathjax || 'https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js';
 			let config = options.config || 'TeX-AMS_HTML-full';
 			let url = mathjax + '?config=' + config;
 

@@ -9,7 +9,7 @@ export const KaTeX = () => {
 	let deck;
 
 	let defaultOptions = {
-		version: '0.13.18',
+		version: 'latest',
 		delimiters: [
 			{left: '$', right: '$', display: false},
 			{left: '$$', right: '$$', display: true},
