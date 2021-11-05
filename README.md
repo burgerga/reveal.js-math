@@ -1,3 +1,5 @@
+❗ **NB: Archived because it was merged in https://github.com/hakimel/reveal.js** ❗
+
 # reveal.js-math
 Math plugins (MathJax/KaTeX) for reveal.js.
 
